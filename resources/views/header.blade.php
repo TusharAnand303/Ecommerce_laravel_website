@@ -28,7 +28,7 @@ if(Session::has('user')){
       </ul>
      <ul class="navbar-nav mr-left" style="margin-right: 70px">
         <li class="nav-item active">
-            <a class="nav-link" href="#"><i class="fa fa-shopping-cart" style="font-size:18px;color:white;margin-right:10px"></i>Cart Items ({{$total}}) <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/cartlist"><i class="fa fa-shopping-cart" style="font-size:18px;color:white;margin-right:10px"></i>Cart Items ({{$total}}) <span class="sr-only">(current)</span></a>
           </li>
           @if(Session::has('user'))
           <li class="nav-item dropdown" style="margin-right: -10px">
