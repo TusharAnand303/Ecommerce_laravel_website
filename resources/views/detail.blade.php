@@ -19,7 +19,7 @@
                     <button class="btn btn-dark">Add to cart</button>
                 </form>
                 <form action="">
-                    <button class="btn btn-danger">Buy Now</button>
+                    {{-- <button class="btn btn-danger">Buy Now</button> --}}
                 </form>
             </div>
         </div>

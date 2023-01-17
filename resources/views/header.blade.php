@@ -18,7 +18,7 @@ if(Session::has('user')){
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="#">Orders <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/myorder">Orders <span class="sr-only">(current)</span></a>
           </li>
           <form action="/search" class="form-inline my-2 my-lg-0" style="margin-left: 20px">
             <input style="width:350px" autocomplete="off" name="query" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

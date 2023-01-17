@@ -4,7 +4,7 @@
   <div style="font-family: 'Mukta', sans-serif;margin-top:40px">
     <h1 style="text-align: center">Items In your <span style="color: red">cart</span> !</h1>
   </div>
-
+<a href="/ordernow" style="margin-left: 100px" class="btn btn-success">Order Now</a>
   <div style="display: inline-block; text-align:center">
   @foreach($products as $item)
   <div style="margin-left:100px" class="row cart-divider" >
@@ -21,8 +21,11 @@
         <a href="/removecart/{{$item->cart_id}}" class="btn btn-danger" style="color: white">Remove from cart  <i class="fa fa-trash-o"></i></a>    
     </a>
    </div>
+   
    </div>
+   
   @endforeach
   </div>
+  <a href="/ordernow" style="margin-left: 100px" class="btn btn-success">Order Now</a>
 
 @endsection
